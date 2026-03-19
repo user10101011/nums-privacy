@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nums: Daily Angel Numbers Soporte</title>
+  <meta name="description" content="Página de soporte de Nums: Daily Angel Numbers.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f3f3f3;
+      --paper: rgba(255, 255, 255, 0.94);
+      --text: #111111;
+      --muted: #5c5c5c;
+      --line: rgba(17, 17, 17, 0.12);
+      --accent: #111111;
+      --accent-soft: rgba(17, 17, 17, 0.06);
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(0, 0, 0, 0.05), transparent 30%),
+        radial-gradient(circle at top right, rgba(0, 0, 0, 0.04), transparent 28%),
+        linear-gradient(180deg, #fcfcfc 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      backdrop-filter: blur(8px);
+    }
+
+    .hero {
+      padding: 40px 28px 28px;
+      background:
+        linear-gradient(135deg, rgba(0, 0, 0, 0.06), rgba(255, 255, 255, 0.42)),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.05;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 54ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .content {
+      padding: 8px 28px 20px;
+    }
+
+    section {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-child {
+      border-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .panel {
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    .footer {
+      padding: 0 28px 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        width: min(100% - 20px, 860px);
+        padding: 20px 0 36px;
+      }
+
+      .hero,
+      .content,
+      .footer {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .hero {
+        padding-top: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <article class="card">
+      <header class="hero">
+        <span class="eyebrow">Soporte</span>
+        <h1>Nums: Daily Angel Numbers</h1>
+        <p class="subtitle">
+          Contacta con soporte, informa de un problema o haz una pregunta sobre la app.
+        </p>
+      </header>
+
+      <div class="content">
+        <section aria-labelledby="contacto">
+          <h2 id="contacto">Contacto</h2>
+          <div class="panel">
+            <p>Aleksandr Bakhmut</p>
+            <p><a href="mailto:nums.app.help@gmail.com">nums.app.help@gmail.com</a></p>
+          </div>
+        </section>
+
+        <section aria-labelledby="ayuda">
+          <h2 id="ayuda">Cómo Obtener Ayuda</h2>
+          <p>
+            Si necesitas ayuda con Nums: Daily Angel Numbers, envía un correo electrónico con una breve
+            descripción del problema o de tu consulta.
+          </p>
+          <p>Los detalles útiles incluyen:</p>
+          <ul>
+            <li>el modelo de tu dispositivo</li>
+            <li>tu versión de iOS</li>
+            <li>la versión de la app</li>
+            <li>los pasos para reproducir el problema</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="temas">
+          <h2 id="temas">Temas de Soporte</h2>
+          <ul>
+            <li>problemas con el número angelical diario y el widget</li>
+            <li>búsqueda, números guardados y comportamiento de la app</li>
+            <li>problemas al compartir o exportar imágenes</li>
+            <li>preguntas relacionadas con la privacidad</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="privacidad">
+          <h2 id="privacidad">Política de Privacidad</h2>
+          <p>
+            Puedes consultar la Política de Privacidad aquí:
+            <a href="./index.html">Privacy Policy</a>
+          </p>
+        </section>
+      </div>
+
+      <div class="footer">
+        <p>Esta página está pensada para usarse como la Support URL pública de Nums: Daily Angel Numbers.</p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
